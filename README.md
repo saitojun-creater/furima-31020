@@ -38,8 +38,9 @@
 - has_one :sold_item
 - belongs_to :category
 - belongs_to :status
-- belongs_to :fee-type
+- belongs_to :fee_type
 - belongs_to :hassou
+- belongs_to :date_of_shipment
 
 ## sold_itemsテーブル
 
@@ -52,7 +53,7 @@
 
 - belongs_to :user
 - belongs_to :item
-- has_one :addresses
+- has_one :address
 
 ## addressesテーブル
 
